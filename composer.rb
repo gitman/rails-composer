@@ -1161,7 +1161,7 @@ add_gem 'rails_apps_pages', :group => :development if prefs[:apps4]
 ## Template Engine
 if prefer :templates, 'haml'
   add_gem 'haml-rails'
-  add_gem 'html2haml', :group => :development
+  add_gem 'html2haml', '2.0.0.beta.1', :group => :development
 end
 if prefer :templates, 'slim'
   add_gem 'slim-rails'
